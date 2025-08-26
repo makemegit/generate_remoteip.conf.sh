@@ -1,5 +1,6 @@
 #!/bin/bash
-
+## Bash script for generating or updating the remoteip.conf file for Cloudflare on Ubuntu.
+## by @makeme v.2025-08-26
 echo "# Generate/Update /etc/apache2/conf-available/remoteip.conf for CloudFlare" > /etc/apache2/conf-available/remoteip.conf
 echo "# More Information: https://developers.cloudflare.com/support/troubleshooting/restoring-visitor-ips/restoring-original-visitor-ips/ " >> /etc/apache2/conf-available/remoteip.conf
 echo "" >> /etc/apache2/conf-available/remoteip.conf
